@@ -1,5 +1,11 @@
 export default [
     {
+        title: 'React Portfolio',
+        imgUrl: '',
+        stack: ['React', 'Vite', 'JavaScript', 'Tailwind',],
+        link: '',
+    },
+    {
         title: 'HappenIn',
         imgUrl: '',
         stack: ['HTML', 'CSS', 'JavaScript',],
@@ -12,9 +18,9 @@ export default [
         link: 'https://gymder-project.herokuapp.com/login',
     },
     {
-        title: 'HappenIn',
+        title: 'Coding Quiz',
         imgUrl: '',
         stack: ['HTML', 'CSS', 'JavaScript',],
-        link: 'https://zaksalazar.github.io/HappenIn/',
+        link: 'https://samermahir.github.io/hw-4-quiz/',
     },
 ]
