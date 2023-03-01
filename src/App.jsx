@@ -3,6 +3,8 @@ import Homepage from './components/Homepage';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Title from './components/Title';
+import About from './components/About';
 
 function App() {
 
@@ -10,8 +12,10 @@ function App() {
     <div className="App">
       <Homepage />
       <Projects />
+      <About />
       <Contact />
       <Footer />
+      <Title />
     </div>
   )
 }

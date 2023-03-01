@@ -1,8 +1,14 @@
 import React from "react";
 
-function Title() {
+function Title({ children, id }) {
     return (
-        <h1></h1>
+        <h1
+        id={id && id}
+        className="text-2xl font-bold underline
+        underline-offset-8 decoration-4 mb-5
+        text-stone-900">
+            {children}
+        </h1>
     )
 }
 
