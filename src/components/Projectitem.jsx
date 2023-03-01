@@ -2,7 +2,8 @@ import React from "react";
 
 function ProjectItem({ title, imgUrl, stack, link}) {
     return (
-        <div className="border-2 border-stone-900 rounded-md overflow-hidden">
+        <a href={link} target="_blank"
+        className="justify-center items-center border-2 border-stone-900 rounded-md overflow-hidden">
             <img src={imgUrl}
              alt="projects"
             className="w-full h-36 md:h-48 object-cover cursor-pointer"/>
@@ -16,7 +17,8 @@ function ProjectItem({ title, imgUrl, stack, link}) {
                 ))}
             </p>
         </div>
-        </div>
+        
+        </a>
     )
 }
 
