@@ -12,10 +12,10 @@ function App() {
   return (
     <div className="App">
       <Sidenav /> 
-      <Homepage />
+      {/* <Homepage />
       <Projects />
       <About />
-      <Contact />
+      <Contact /> */}
       <Footer />
       <Title />
     </div>
