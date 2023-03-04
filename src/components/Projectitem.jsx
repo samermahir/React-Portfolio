@@ -3,7 +3,7 @@ import React from "react";
 function ProjectItem({ title, imgUrl, stack, link}) {
     return (
         <a href={link} target="_blank"
-        className="justify-center items-center border-2 border-stone-900 rounded-md overflow-hidden">
+        className="relative justify-center items-center h-auto w-full shadow-xl shadow-gray-500 rounded-md overflow-hidden hover:scale-110 duration-200">
             <img src={imgUrl}
              alt="projects"
             className="w-full h-36 md:h-48 object-cover cursor-pointer"/>

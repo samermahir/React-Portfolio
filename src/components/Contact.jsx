@@ -3,14 +3,16 @@ import Title from "./Title";
 
 function Contact() {
     return (
-        <div className="flex flex-col mb-10 mx-auto">
-            <div className="flex justify-center items-center">
+        <div id="Contact" className="max-w-[1040px] m-auto p-4 py-16">
+            <h1 className="text-4xl font-bold text-center ">Contact</h1>
+                <p className="text-center py-8"></p>
+               <div className="grid sm:grid-cols-2 gap-12">
                 <form 
                 action="https://getform.io/f/4e43611a-4ebc-406a-ac5e-3408fba93877"
                 method="POST"
                 className="flex flex-col w-full md:w-7/12"
                 >
-                    <Title>Contact</Title>
+                    
                     <input 
                     type="text"
                     name="name" 

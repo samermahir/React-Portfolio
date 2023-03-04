@@ -5,9 +5,10 @@ import Title from "./Title";
 
 function Projects() {
     return (
-        <div className="flex flex-col md:flex-row items-center justify-center">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <Title>Projects</Title>
+        <div id="projects" className="max-w-[1040px] m-auto p-4 py-16">
+            <h1 className="text-4xl font-bold text-center ">Projects</h1>
+                <p className="text-center py-8"></p>
+               <div className="grid sm:grid-cols-2 gap-12">
                 {project.map(project => (
                     <ProjectItem
                         imgUrl={project.imgUrl}
@@ -16,8 +17,9 @@ function Projects() {
                         link={project.link}
                     />
                 ))}
+                </div>
             </div>
-        </div>
+        
     )
 }
 

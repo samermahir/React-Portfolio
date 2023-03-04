@@ -16,19 +16,23 @@ const Sidenav = () => {
             {
                 nav ? (
                     <div className="fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20">
-                        <a href="#Homepage" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 hover:scale-110 ease-in duration-200 ">
+                        <a onClick={handleNav}
+                         href="#Homepage" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 hover:scale-110 ease-in duration-200 ">
                             <AiOutlineHome side={20} />
                             <span className="pl-4">Home</span>
                         </a>
-                        <a href="#Homepage" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 hover:scale-110 ease-in duration-200 ">
+                        <a onClick={handleNav}
+                         href="#Homepage" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 hover:scale-110 ease-in duration-200 ">
                             <AiOutlineProject side={20} />
                             <span className="pl-4">Projects</span>
                         </a>
-                        <a href="#Homepage" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 hover:scale-110 ease-in duration-200 ">
+                        <a onClick={handleNav}
+                         href="#Homepage" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 hover:scale-110 ease-in duration-200 ">
                             <BsPerson side={20} />
                             <span className="pl-4">About Me</span>
                         </a>
-                        <a href="#Homepage" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 hover:scale-110 ease-in duration-200 ">
+                        <a onClick={handleNav}
+                         href="#Homepage" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 hover:scale-110 ease-in duration-200 ">
                             <AiOutlineMail side={20} />
                             <span className="pl-4">Contact</span>
                         </a>
@@ -43,13 +47,14 @@ const Sidenav = () => {
                     <a href="Homepage" className=" rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 hover:scale-110 ease-in duration-300">
                         <AiOutlineHome side={20} />
                     </a>
-                    <a href="Homepage" className=" rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 hover:scale-110 ease-in duration-300">
-                        <AiOutlineHome side={20} />
+                    <a href="Projects" className=" rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 hover:scale-110 ease-in duration-300">
+                        <AiOutlineProject side={20} />
                     </a>
-                    <a href="Homepage" className=" rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 hover:scale-110 ease-in duration-300">
-                        <AiOutlineHome side={20} />
-                    </a> <a href="Homepage" className=" rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 hover:scale-110 ease-in duration-300">
-                        <AiOutlineHome side={20} />
+                    <a href="About" className=" rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 hover:scale-110 ease-in duration-300">
+                        <BsPerson side={20} />
+                    </a> 
+                    <a href="Contact" className=" rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 hover:scale-110 ease-in duration-300">
+                        <AiOutlineMail side={20} />
                     </a>
                 </div>
             </div>
