@@ -1,5 +1,7 @@
 import React, {useState} from "react";
-import { AiOutlineMenu, AiOutlineHome } from 'react-icons/ai';
+import { AiOutlineMenu, AiOutlineHome, AiOutlineProject, AiOutlineMail } from 'react-icons/ai';
+import {BsPerson} from 'react-icons/bs'
+
 
 const Sidenav = () => {
 
@@ -14,9 +16,21 @@ const Sidenav = () => {
             {
                 nav ? (
                     <div className="fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20">
-                        <a href="#Homepage" className="w-[75%] flex justify-center">
+                        <a href="#Homepage" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 hover:scale-110 ease-in duration-200 ">
                             <AiOutlineHome side={20} />
                             <span className="pl-4">Home</span>
+                        </a>
+                        <a href="#Homepage" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 hover:scale-110 ease-in duration-200 ">
+                            <AiOutlineProject side={20} />
+                            <span className="pl-4">Projects</span>
+                        </a>
+                        <a href="#Homepage" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 hover:scale-110 ease-in duration-200 ">
+                            <BsPerson side={20} />
+                            <span className="pl-4">About Me</span>
+                        </a>
+                        <a href="#Homepage" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 hover:scale-110 ease-in duration-200 ">
+                            <AiOutlineMail side={20} />
+                            <span className="pl-4">Contact</span>
                         </a>
                     </div>
                 )
@@ -24,6 +38,21 @@ const Sidenav = () => {
                     <div></div>
                 )
             }
+            <div className=" fixed top-[25%] z-10 ">
+                <div className="flex flex-col">
+                    <a href="Homepage" className=" rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 hover:scale-110 ease-in duration-300">
+                        <AiOutlineHome side={20} />
+                    </a>
+                    <a href="Homepage" className=" rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 hover:scale-110 ease-in duration-300">
+                        <AiOutlineHome side={20} />
+                    </a>
+                    <a href="Homepage" className=" rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 hover:scale-110 ease-in duration-300">
+                        <AiOutlineHome side={20} />
+                    </a> <a href="Homepage" className=" rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 hover:scale-110 ease-in duration-300">
+                        <AiOutlineHome side={20} />
+                    </a>
+                </div>
+            </div>
         </div>
     );
 };
