@@ -38,7 +38,7 @@ function Contact() {
                         type="button"
                         className="text-center inline-block px-8
                         py-3 w-max text-base font-medium rounded-md
-                        text-white bg-gradient-to-r from-gray-500 to-blue-500
+                        text-white bg-gradient-to-r from-gray-400 to-black-400
                         drop-shadow-md">
                             Message Me
                         </button>
