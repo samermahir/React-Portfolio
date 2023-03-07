@@ -6,3 +6,14 @@
     scroll-behavior: smooth;
 }
 
+.react-icons {
+    vertical-align: middle;
+    height: 30px;
+   
+}
+
+.className {
+     display: flex;
+    justify-content: center;
+}
+

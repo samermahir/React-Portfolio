@@ -35,10 +35,10 @@ function Contact() {
                         rounded-md focus:outline-none"
                         ></textarea>
                         <button 
-                        type="button"
+                        type="submit"
                         className="text-center inline-block px-8
                         py-3 w-max text-base font-medium rounded-md
-                        text-white bg-gradient-to-r from-gray-400 to-black-400
+                        text-white bg-gradient-to-r from-gray-500 to-black-500
                         drop-shadow-md">
                             Message Me
                         </button>
