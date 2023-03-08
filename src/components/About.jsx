@@ -8,7 +8,7 @@ function About() {
             <p className="text-center py-8"></p>
            <div className="grid sm:grid-cols-2 gap-12">
             <p className="text-lg max-w-xl mb-6 font-bold text-center">My name is Samer Mahir, and I am currently enrolled in the UCI web developer bootcamp.
-             I have 13 years experiance in the customer service sector and 
+             I have 13 years experience in the customer service sector and 
              5 years of manufacturing experience as a machine operator for International Paper.</p>
              {/* <a href="mailto:samermahir@yahoo.com"
              className="block mt-3 text-md md:text-lg font-bold
