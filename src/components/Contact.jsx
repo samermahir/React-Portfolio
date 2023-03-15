@@ -38,8 +38,7 @@ function Contact() {
                         type="submit"
                         className="text-center inline-block px-8
                         py-3 w-max text-base font-medium rounded-md
-                        text-white bg-gradient-to-r from-gray-500 to-black-500
-                        drop-shadow-md">
+                        text-white bg-black">
                             Message Me
                         </button>
                     
