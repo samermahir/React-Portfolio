@@ -1,8 +1,8 @@
 export default [
     {
-        title: 'React Portfolio',
-        imgUrl: '',
-        stack: ['React', 'Vite', 'JavaScript', 'Tailwind',],
+        title: 'ConquerIO',
+        imgUrl: '/assets/Screen Shot 2023-03-15 at 4.33.34 PM.png',
+        stack: ['React', 'Vite', 'JavaScript', 'Tailwind', 'Node.js', 'MySql'],
         link: '',
     },
     {
