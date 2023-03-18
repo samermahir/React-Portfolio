@@ -4,6 +4,7 @@
 
 * {
     scroll-behavior: smooth;
+    
 }
 
 .react-icons {
@@ -19,4 +20,5 @@
      display: flex;
     justify-content: center;
 }
+
 
